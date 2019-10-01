@@ -37,9 +37,9 @@ $config->rights->member['user']['uploadavatar']   = 'uploadavatar';
 $config->rights->member['user']['cropavatar']     = 'cropavatar';
 $config->rights->member['user']['editself']       = 'editself';
 
-$config->rights->member['usercontact']['create']                = 'create';
-$config->rights->member['usercontact']['edit']                  = 'edit';
-$config->rights->member['usercontact']['delete']                = 'delete';
+// $config->rights->member['usercontact']['create']                = 'create';
+// $config->rights->member['usercontact']['edit']                  = 'edit';
+// $config->rights->member['usercontact']['delete']                = 'delete';
 $config->rights->member['usercontact']['buildcontactlist']      = 'buildcontactlist';
 $config->rights->member['usercontact']['ajaxgetcontactmembers'] = 'ajaxgetcontactmembers';
 
@@ -64,14 +64,14 @@ $config->rights->member['tree']['redirect']          = 'redirect';
 
 $config->rights->member['project']['index']      = 'index';
 // $config->rights->member['project']['create']     = 'create';
-$config->rights->member['project']['edit']       = 'edit';
-$config->rights->member['project']['view']       = 'view';
-$config->rights->member['project']['member']     = 'member';
-$config->rights->member['project']['finish']     = 'finish';
-$config->rights->member['project']['activate']   = 'activate';
-$config->rights->member['project']['suspend']    = 'suspend';
+// $config->rights->member['project']['edit']       = 'edit';
+// $config->rights->member['project']['view']       = 'view';
+// $config->rights->member['project']['member']     = 'member';
+// $config->rights->member['project']['finish']     = 'finish';
+// $config->rights->member['project']['activate']   = 'activate';
+// $config->rights->member['project']['suspend']    = 'suspend';
 $config->rights->member['project']['importtask'] = 'importtask';
-$config->rights->member['project']['delete']     = 'delete';
+// $config->rights->member['project']['delete']     = 'delete';
 
 $config->rights->member['task']['sendmail']       = 'sendmail';
 $config->rights->member['task']['browse']         = 'browse';
@@ -113,8 +113,8 @@ $config->rights->member['reply']['edit']       = 'edit';
 $config->rights->member['reply']['delete']     = 'delete';
 $config->rights->member['reply']['deletefile'] = 'deletefile';
 
-$config->rights->member['message']['comment'] = 'comment';
-$config->rights->member['message']['post']    = 'post';
+// $config->rights->member['message']['comment'] = 'comment';
+// $config->rights->member['message']['post']    = 'post';
 
 $config->rights->member['action']['createrecord'] = 'createrecord';
 $config->rights->member['action']['editrecord']   = 'editrecord';
@@ -141,7 +141,7 @@ $config->rights->member['attend']['edit']             = 'edit';
 $config->rights->member['attend']['ajaxgetdeptusers'] = 'ajaxgetdeptusers';
 $config->rights->member['attend']['read']             = 'read';
 
-$config->rights->member['holiday']['browse'] = 'browse';
+// $config->rights->member['holiday']['browse'] = 'browse';
 
 $config->rights->member['leave']['personal']     = 'personal';
 $config->rights->member['leave']['create']       = 'create';
@@ -199,8 +199,8 @@ $config->rights->member['refund']['switchstatus'] = 'switchstatus';
 $config->rights->member['my']['todo']     = 'todo';
 $config->rights->member['my']['task']     = 'task';
 $config->rights->member['my']['project']  = 'project';
-$config->rights->member['my']['dynamic']  = 'dynamic';
+// $config->rights->member['my']['dynamic']  = 'dynamic';
 $config->rights->member['my']['order']    = 'order';
 $config->rights->member['my']['contract'] = 'contract';
 $config->rights->member['my']['review']   = 'review';
-$config->rights->member['my']['contact']  = 'contact';
+// $config->rights->member['my']['contact']  = 'contact';

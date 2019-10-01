@@ -69,6 +69,7 @@ $lang->appModule->sys[] = 'report';
 $lang->appModule->sys[] = 'my';
 $lang->appModule->sys[] = 'file';
 $lang->appModule->sys[] = 'action';
+$lang->appModule->sys[] = 'message';    // 自定义
 
 /* Module order. */
 $lang->moduleOrder[0]   = 'order';
@@ -116,8 +117,10 @@ $lang->moduleOrder[125] = 'tree';
 $lang->moduleOrder[130] = 'setting';
 $lang->moduleOrder[135] = 'report';
 $lang->moduleOrder[140] = 'my';
+$lang->moduleOrder[143] = 'usercontact';    // 自定义
 $lang->moduleOrder[145] = 'file';
 $lang->moduleOrder[150] = 'action';
+$lang->moduleOrder[155] = 'message';        // 自定义
 
 $lang->resource = new stdclass();
 
@@ -425,8 +428,24 @@ $lang->schema->methodOrder[25] = 'delete';
 /* Project 自定义*/
 $lang->resource->project = new stdclass();  // 自定义
 $lang->resource->project->create   = 'create';  //自定义
+$lang->resource->project->edit   = 'edit';  //自定义
+$lang->resource->project->view   = 'view';  //自定义
+$lang->resource->project->member   = 'member';  //自定义
+$lang->resource->project->finish   = 'finish';  //自定义
+$lang->resource->project->activate   = 'activate';  //自定义
+$lang->resource->project->suspend   = 'suspend';  //自定义
+// $lang->resource->project->importtask   = 'importtask';  //自定义
+$lang->resource->project->delete   = 'delete';  //自定义
 
-$lang->project->methodOrder[5]  = 'create';
+$lang->project->methodOrder[5]  = 'create';     // 自定义
+$lang->project->methodOrder[10]  = 'edit';     // 自定义
+$lang->project->methodOrder[15]  = 'view';     // 自定义
+$lang->project->methodOrder[20]  = 'member';     // 自定义
+$lang->project->methodOrder[25]  = 'finish';     // 自定义
+$lang->project->methodOrder[30]  = 'activate';     // 自定义
+$lang->project->methodOrder[35]  = 'suspend';     // 自定义
+// $lang->project->methodOrder[40]  = 'importtask';     // 自定义
+$lang->project->methodOrder[45]  = 'delete';     // 自定义
 
 /* Task. */
 $lang->resource->task = new stdclass();
@@ -518,10 +537,12 @@ $lang->resource->holiday = new stdclass();
 $lang->resource->holiday->create = 'create';
 $lang->resource->holiday->edit   = 'edit';
 $lang->resource->holiday->delete = 'delete';
+$lang->resource->holiday->browse = 'browse';
 
 $lang->holiday->methodOrder[0]  = 'create';
 $lang->holiday->methodOrder[5]  = 'edit';
 $lang->holiday->methodOrder[10] = 'delete';
+$lang->holiday->methodOrder[15] = 'browse';
 
 /* Leave */
 $lang->resource->leave = new stdclass();
@@ -730,8 +751,30 @@ $lang->report->methodOrder[5] = 'browse';
 /* My. */
 $lang->resource->my = new stdclass();
 $lang->resource->my->company = 'company';
+$lang->resource->my->dynamic = 'dynamic';   // 自定义
+$lang->resource->my->contact = 'contact';   // 自定义
 
 $lang->my->methodOrder[5] = 'company';
+$lang->my->methodOrder[10] = 'dynamic';
+$lang->my->methodOrder[15] = 'contact';
+
+/* Usercontact. 自定义*/
+$lang->resource->usercontact = new stdclass();  // 自定义
+$lang->resource->usercontact->create   = 'create';  //自定义
+$lang->resource->usercontact->edit   = 'edit';  //自定义
+$lang->resource->usercontact->delete   = 'delete';  //自定义
+
+$lang->usercontact->methodOrder[5]  = 'create';     // 自定义
+$lang->usercontact->methodOrder[10]  = 'edit';     // 自定义
+$lang->usercontact->methodOrder[15]  = 'delete';     // 自定义
+
+/* Message. 自定义 */
+$lang->resource->message = new stdclass();  // 自定义
+$lang->resource->message->comment   = 'comment';  //自定义
+$lang->resource->message->post   = 'post';  //自定义
+
+$lang->message->methodOrder[5]  = 'comment';     // 自定义
+$lang->message->methodOrder[10]  = 'post';     // 自定义
 
 /* User. */
 $lang->resource->adminUser = new stdclass();

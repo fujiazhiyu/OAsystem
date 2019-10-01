@@ -1,3 +1,4 @@
 tmp/log/*.log.php
 tmp/backup/*.php
 tmp/model/*.php
+.DS_Store
